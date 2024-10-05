@@ -1,0 +1,156 @@
+.bg-main{
+    background-color: #24295f;
+}
+
+.bg-subtitle{
+    background-color: #24295F;
+}
+
+.bg-phoneicon{
+  background-color: #F94710;
+}
+
+.btn-custom:hover{
+ background-color: #FF430999;
+}
+
+
+body{
+  font-family: Abril Fatface;
+} 
+.icon::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.phone::before{
+    background-image: url("../assets/Images/Phone.svg");
+}
+
+.mail::before{
+    background-image: url("../assets/Images/Mail.svg");
+}
+
+#carouselExampleIndicators .carousel-item img {
+  object-fit: contain;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+#carouselExampleIndicators2 .carousel-item img {
+  object-fit: contain;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+
+.carousel-control-prev-icon {
+  background-color: #24295f;
+}
+
+.carousel-control-next-icon {
+  background-color: #24295f;
+}
+
+.facebook::before{
+    background-image: url("../assets/Images/Facebook.svg");
+}
+.top-info {
+  z-index: 1000;
+  top: 0;
+  position: sticky;
+}
+.top-info a span{
+    font-size: 1.5rem;
+    color: white;    
+}
+
+.top-info a{
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    display: inline-flex;
+}
+.map iframe{
+    width: 100%;
+}
+.title-animation{
+    animation-name: title-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+  }
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text-rosu{
+  color: #FF430999;
+}
+
+.text-portocaliu{
+  color: #F94710 !important;
+}
+
+
+.customborder li{
+  border: 1.5px solid #FF430999 !important;
+  margin-top: 5px;
+}
+.roundedimage{
+  border-radius: 15px;
+}
+.container-carousel{
+  max-width: 800px;
+}
+
+  @keyframes title-animation {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:400px){
+ .top-info a span{
+    font-size: 1.3rem;
+ }
+}
+
+@media only screen and (max-width:300px){
+    .top-info a span{
+       font-size: 1rem;
+    }
+   }
+@media only screen and (max-width:770px){
+  .woosh{
+    display:none;
+  }
+  #navbarNav {
+    box-shadow: 0px 11px 9px -6px rgba(0,0,0,0.91);
+  }  
+}
+
