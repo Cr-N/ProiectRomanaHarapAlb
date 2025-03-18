@@ -521,3 +521,7 @@ footer ul {
   }  
 }
 
+.no-break {
+  white-space: nowrap;
+  display: inline-block;
+}
